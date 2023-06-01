@@ -1,0 +1,174 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 144px 76px
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+    text-transform: uppercase
+}
+
+/*cursor: pointer é o cursor de maozinha*/
+
+.button-header {
+
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase
+}
+
+.logo-image {
+    height: 500px;
+    width: 568px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.section-button {
+    width: 239px;
+    height: 64px;
+    background: #ADFF00;
+    border-radius: 20.5px;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 86px;
+}
+
+/*filter: drop-shadow(0px 4px 4px rgba() é filtro sombra na caixa, h./v./int./cor*/
+
+.section-button:hover {
+    opacity: 0.5;
+}
+
+.section-button:active {
+    opacity: 1;
+}
+
+.button-header:hover {
+    opacity: 0.5;
+}
+
+.button-header:active {
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 1215px) and (orientation:portrait) {
+
+    p {
+        display: none
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        margin: 0;
+        margin-top: 10vh;
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    section {
+        position: absolute;
+        top: 60vh;
+        height: 40vh;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 15vw;
+        padding-right: 15vw;
+
+
+
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 1.5vh;
+        text-align: center;
+
+
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 1.5vh;
+        text-align: center;
+    }
+
+
+    .section-button {
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+}
